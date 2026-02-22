@@ -40,7 +40,6 @@ Image the larger USB drive using Rufus ([installation instructions here if not a
 4. Disconnect the **SATA drive** mounted on the inside of the door to ensure Windows 11 isn't installed on it. There's a latch on the top of the door you can press on to open it. Disconnect both cables connected to the drive on the bottom half of the door.
 5. Close the computer by sliding the cover back on and screwing in the two screws again.
 6. Disconnect the computer's **Ethernet cable**. At the time of writing, this is a blue cable. This disable's Microsoft's requirement for an online account.
-    - *Microsoft-linked accounts were the root cause of the original installation being accidentally deleted*.
 7. Plug in the Windows USB drive and turn on the computer.
 8. Repeatedly press [F11] upon seeing the **Pro Series** logo and select **UEFI: USB, Partition 1**.
 9. You will be greeted by the Windows 11 Installer.
@@ -60,7 +59,7 @@ Image the larger USB drive using Rufus ([installation instructions here if not a
     5. Security questions: *Select 3 security questions and write answers to them. Save the answers somewhere secure. As long as the password is saved, you probably don't need to care about the security questions.*
 11. Once you see the Windows desktop, the installation is complete. You can reconnect the Ethernet cable now.
 
-Now that installation is complete, make sure to follow the [Windows Debloating](#link) instructions. Also make sure to set the settings in [Windows Settings](#link) and to install the software in [Windows Software](#link).
+Now that installation is complete, make sure to follow the Windows Debloating instructions. Also make sure to set the settings in Windows Settings and to install the software in Windows Software.
 
 ## Partitioning Guide
 
