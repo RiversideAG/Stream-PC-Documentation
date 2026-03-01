@@ -59,7 +59,7 @@ Image the larger USB drive using Rufus ([installation instructions here if not a
     5. Security questions: *Select 3 security questions and write answers to them. Save the answers somewhere secure. As long as the password is saved, you probably don't need to care about the security questions.*
 11. Once you see the Windows desktop, the installation is complete. You can reconnect the Ethernet cable now.
 
-Now that installation is complete, make sure to follow the Windows Debloating instructions. Also make sure to set the settings in Windows Settings and to install the software in Windows Software.
+Remember to install the software in `Windows Software.md`, follow the steps in `Windows Debloating.md`, and set the settings in `Windows Settings.md`.
 
 ## Partitioning Guide
 
