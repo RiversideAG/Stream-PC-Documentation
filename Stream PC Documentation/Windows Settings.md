@@ -45,4 +45,33 @@ Set-ExecutionPolicy -Scope LocalMachine -ExecutionPolicy RemoteSigned -Force
 
 ## Personalization
 
-*Add any personalization options (taskbar icons, start menu items, etc.) here.*
+### Apps Pinned to Start
+
+- Settings
+- File Explorer
+- Terminal
+- Firefox
+- OBS Studio
+- Git Bash
+- Windows Security
+- Calculator
+- Notepad
+- Notepad++
+- VS Code
+- SumatraPDF
+- LibreOffice Writer
+- LibreOffice Impress
+- LibreOffice Calc
+- VLC media player
+- HandBrake
+- Audacity
+- PowerToys (Preview)
+- Rufus
+
+### Apps Pinned to Taskbar
+
+- Settings
+- File Explorer
+- Terminal
+- Firefox
+- OBS Studio
