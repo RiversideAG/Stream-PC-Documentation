@@ -16,7 +16,7 @@ Win11Debloat is, by default, an interactive script. It asks you what apps you wa
 
 1. Copy the `CustomAppsList` and `LastUsedSettings.json` files to the `Downloads` folder on the PC. You can do this easily using a USB drive.
 
-2. Move the `CustomAppsList` and `LastUsedSettings` files to the script directory in **File Explorer**. If you extracted the script source code using the default settings and **didn't** move the script directory to a permanent location, this should be `Downloads\Win11Debloat-[yyyy].[mm].[dd]\Win11Debloat-[yyyy].[mm].[dd]`.
+2. Move the `CustomAppsList` and `LastUsedSettings` files to the script directory in **File Explorer**. This should be `C:\Program Files\Win11Debloat` if you followed the installation instructions in `Windows Software.md`.
 
 3. Open **Terminal** as an administrator.
 
