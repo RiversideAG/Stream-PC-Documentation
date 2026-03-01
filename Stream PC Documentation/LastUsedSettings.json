@@ -1,0 +1,153 @@
+{
+    "Version":  "1.0",
+    "Settings":  [
+                     {
+                         "Value":  true,
+                         "Name":  "CreateRestorePoint"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "DisableTelemetry"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "DisableSuggestions"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "DisableEdgeAds"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "DisableSettings365Ads"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "DisableLockscreenTips"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "DisableBing"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "DisableCopilot"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "DisableRecall"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "DisableClickToDo"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "DisableEdgeAI"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "DisablePaintAI"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "DisableNotepadAI"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "DisableDesktopSpotlight"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "EnableDarkMode"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "RevertContextMenu"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "DisableStickyKeys"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "DisableFastStartup"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "DisableModernStandbyNetworking"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "HideIncludeInLibrary"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "HideGiveAccessTo"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "HideShare"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "DisableStartPhoneLink"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "TaskbarAlignLeft"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "ShowSearchLabelTb"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "DisableWidgets"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "EnableEndTask"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "EnableLastActiveClick"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "CombineTaskbarWhenFull"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "CombineMMTaskbarWhenFull"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "MMTaskbarModeMainActive"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "ExplorerToDownloads"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "ShowHiddenFolders"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "ShowKnownFileExt"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "HideHome"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "HideGallery"
+                     },
+                     {
+                         "Value":  true,
+                         "Name":  "HideDupliDrive"
+                     }
+                 ]
+}
