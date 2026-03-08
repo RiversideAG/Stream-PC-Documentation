@@ -52,6 +52,7 @@ Set-ExecutionPolicy -Scope LocalMachine -ExecutionPolicy RemoteSigned -Force
 - Terminal
 - Firefox
 - OBS Studio
+- Davinci Resolve
 - Git Bash
 - Windows Security
 - Calculator
@@ -75,3 +76,4 @@ Set-ExecutionPolicy -Scope LocalMachine -ExecutionPolicy RemoteSigned -Force
 - Terminal
 - Firefox
 - OBS Studio
+- Davinci Resolve

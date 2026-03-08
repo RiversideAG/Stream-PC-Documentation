@@ -228,3 +228,19 @@ Zip file archiver.
 ```powershell
 winget install -e --id 7zip.7zip --source winget
 ```
+
+## Davinci Resolve
+
+A free but still powerful cross-platform video editor.
+
+### Installation
+
+Davinci Resolve requires registration to download, but not any payment information. It can be downloaded from [blackmagicdesign.com/products/davinciresolve](https://www.blackmagicdesign.com/products/davinciresolve).
+
+1. Download Davinci Resolve (`.zip`) to the **Downloads** folder.
+2. Extract the downloaded zip file.
+3. Run the Davinci Resolve Installer (`.exe`)
+    1. Select all components for installation.
+    2. Accept the End-User License Agreement.
+    3. Select the default installation location (`C:\Program Files\Blackmagic Design\DaVinci Resolve\`).
+    4. Click **Install** and then **Finish** once installation is complete.
