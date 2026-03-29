@@ -37,23 +37,6 @@ A list of the system settings set on the RiversideAG stream PC.
     - Show recommended files in Start, recent files in File Explorer, and items in Jump Lists: **No**
     - Show websites from your browsing history: **No**
 
-## Powershell
-
-Allow powershell scripts to be executed:
-
-```powershell
-Set-ExecutionPolicy -Scope LocalMachine -ExecutionPolicy RemoteSigned -Force
-```
-
-### Powershell Profile
-
-Configuration options for Powershell are stored in `~\Documents\WindowsPowerShell\profile.ps1`:
-
-```powershell
-# ~\Documents\WindowsPowerShell\profile.ps1
-Import-Module posh-git
-```
-
 ## Personalization
 
 ### Apps Pinned to Start
@@ -88,3 +71,20 @@ Import-Module posh-git
 - Firefox
 - OBS Studio
 - Davinci Resolve
+
+## Terminal
+
+Allow powershell scripts to be executed:
+
+```powershell
+Set-ExecutionPolicy -Scope LocalMachine -ExecutionPolicy RemoteSigned -Force
+```
+
+### Powershell Profile
+
+Configuration options for Powershell are stored in `~\Documents\WindowsPowerShell\profile.ps1`:
+
+```powershell
+# ~\Documents\WindowsPowerShell\profile.ps1
+Import-Module posh-git
+```
