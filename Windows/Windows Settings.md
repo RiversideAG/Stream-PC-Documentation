@@ -39,8 +39,19 @@ A list of the system settings set on the RiversideAG stream PC.
 
 ## Powershell
 
+Allow powershell scripts to be executed:
+
 ```powershell
 Set-ExecutionPolicy -Scope LocalMachine -ExecutionPolicy RemoteSigned -Force
+```
+
+### Powershell Profile
+
+Configuration options for Powershell are stored in `~\Documents\WindowsPowerShell\profile.ps1`:
+
+```powershell
+# ~\Documents\WindowsPowerShell\profile.ps1
+Import-Module posh-git
 ```
 
 ## Personalization
