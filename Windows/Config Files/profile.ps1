@@ -3,3 +3,17 @@ Import-Module posh-git
 
 # set alias for better ls
 function le {eza -l @args }
+
+# set alias for touch command to create files
+function touch {
+    param([string]$file)
+
+    if (Test-Path $file) {
+        # Update the timestamp if the file exists
+        Set-ItemProperty -Path $file -Name LastWriteTime -Value (Get-Date)
+    }
+    else {
+        # Create a new file if it doesn't exist
+        New-Item -Path $file -ItemType File
+    }
+}
