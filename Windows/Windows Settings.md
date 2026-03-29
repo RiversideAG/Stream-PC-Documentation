@@ -82,12 +82,7 @@ Set-ExecutionPolicy -Scope LocalMachine -ExecutionPolicy RemoteSigned -Force
 
 ### Powershell Profile
 
-Configuration options for Powershell are stored in `~\Documents\WindowsPowerShell\profile.ps1`:
-
-```powershell
-# ~\Documents\WindowsPowerShell\profile.ps1
-Import-Module posh-git
-```
+Configuration options for Powershell are stored in `~\Documents\WindowsPowerShell\profile.ps1`, which you can view in `Config Files/profile.ps1`.
 
 ### SSH Keys
 
