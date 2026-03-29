@@ -88,3 +88,7 @@ Configuration options for Powershell are stored in `~\Documents\WindowsPowerShel
 # ~\Documents\WindowsPowerShell\profile.ps1
 Import-Module posh-git
 ```
+
+### SSH Keys
+
+SSH keys are stored in `~\.ssh`. These are used for authenticiation over SSH, like for GitHub and can be created using [ssh-keygen](https://www.ssh.com/academy/ssh/keygen).
