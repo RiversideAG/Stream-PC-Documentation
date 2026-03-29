@@ -92,3 +92,18 @@ Import-Module posh-git
 ### SSH Keys
 
 SSH keys are stored in `~\.ssh`. These are used for authenticiation over SSH, like for GitHub and can be created using [ssh-keygen](https://www.ssh.com/academy/ssh/keygen).
+
+### SSH Agent
+
+The SSH Agent is a service which stores SSH keys in memory so authentication can be done automatically. This service can be set to start automatically with the following command **in an administrator shell**:
+
+```powershell
+Get-Service -Name ssh-agent | Set-Service -StartupType Automatic
+Start-Service ssh-agent
+```
+
+Then you can add keys to the service using the `ssh-add` command **in a normal shell**:
+
+```powershell
+ssh-add ~\.ssh\[key name]
+```

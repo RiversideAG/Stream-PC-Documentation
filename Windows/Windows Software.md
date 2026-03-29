@@ -28,6 +28,8 @@ Set-ExecutionPolicy -Scope LocalMachine -ExecutionPolicy RemoteSigned -Force
 Install-Module posh-git -Scope AllUsers -Force
 Import-Module posh-git
 Add-PoshGitToProfile -AllHosts
+# force Git to use the Windows system's SSH binary
+git config --global core.sshCommand "C:/Windows/System32/OpenSSH/ssh.exe"
 ```
 
 ## Win11Debloat
