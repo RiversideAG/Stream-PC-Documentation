@@ -244,3 +244,13 @@ Davinci Resolve requires registration to download, but not any payment informati
     2. Accept the End-User License Agreement.
     3. Select the default installation location (`C:\Program Files\Blackmagic Design\DaVinci Resolve\`).
     4. Click **Install** and then **Finish** once installation is complete.
+
+## eza
+
+A modern replacement for ls.
+
+### Installation
+
+```powershell
+winget install -e --id eza-community.eza
+```
