@@ -278,5 +278,5 @@ code --install-extension ms-vscode-remote.remote-wsl  # install the vscode WSL e
 
 - You can start Ubuntu by opening **Terminal** and clicking the drop-down arrow next to the new tab button. This will allow you to select **Ubuntu**, which opens an Ubuntu shell in a new tab.
 - You can access the Windows file system from within Ubuntu through the `/mnt/c` directory.
-- You can access the Ubuntu file system through the Windows File Explorer by clicking the **Linux** icon in the side bar.
+- You can access WSL file systems through the Windows File Explorer by clicking the **Linux** icon in the side bar.
 - Applications running on Localhost through WSL are accessible through Windows just like they would be if they were running on Windows.
