@@ -256,3 +256,27 @@ A modern replacement for ls.
 ```powershell
 winget install -e --id eza-community.eza
 ```
+
+## Windows Subsystem for Linux (WSL)
+
+A subsystem which allows Linux distributions to be installed within the existing Windows installation. Required for Docker's virtual machine functionality.
+
+### Installation
+
+The following instructions install Ubuntu through WSL, which is one of the most popular and best maintained Linux distributions.
+
+```powershell
+wsl --update  # update wsl
+wsl --install Ubuntu  # install Ubuntu through WSL
+code --install-extension ms-vscode-remote.remote-wsl  # install the vscode WSL extension
+```
+
+1. Create a default Unix user account: `riversideag`
+2. Password: *Choose a 16+ character password and save it somewhere secure, like a password manager. You can ask one of the media booth staff if you need the current password.*
+
+### WSL Tips
+
+- You can start Ubuntu by opening **Terminal** and clicking the drop-down arrow next to the new tab button. This will allow you to select **Ubuntu**, which opens an Ubuntu shell in a new tab.
+- You can access the Windows file system from within Ubuntu through the `/mnt/c` directory.
+- You can access the Ubuntu file system through the Windows File Explorer by clicking the **Linux** icon in the side bar.
+- Applications running on Localhost through WSL are accessible through Windows just like they would be if they were running on Windows.
