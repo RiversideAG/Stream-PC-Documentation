@@ -280,3 +280,13 @@ code --install-extension ms-vscode-remote.remote-wsl  # install the vscode WSL e
 - You can access the Windows file system from within Ubuntu through the `/mnt/c` directory.
 - You can access WSL file systems through the Windows File Explorer by clicking the **Linux** icon in the side bar.
 - Applications running on Localhost through WSL are accessible through Windows just like they would be if they were running on Windows.
+
+## Docker Desktop
+
+An application which gives GUI access to Docker, the most popular containerization software.
+
+### Installation
+
+```powershell
+winget install -e --id Docker.DockerDesktop
+```
