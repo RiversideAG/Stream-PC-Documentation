@@ -293,3 +293,22 @@ winget install -e --id Docker.DockerCLI
 ```
 
 Check that docker was installed correctly with `docker run --rm hello-world`.
+
+## Python Launcher
+
+A standalone tool that makes Python available as global commands on your Windows machine, integrates with the system, and supports updates over time. More details in [Python's Documentation](https://docs.python.org/3/using/windows.html).
+
+1. Download the Python Launcher from its [Microsoft Store Page](https://apps.microsoft.com/detail/9NQ7512CXL7T)
+2. Open the launcher, which opens a terminal window.
+    1. Allow paths longer than 260 characters: `y`
+    2. Add commands directory to your PATH now: `y`
+    3. Install the latest version of CPython: `y` (3.14.5)
+3. Restart Windows. This is required for the paths to fully update.
+
+## pip
+
+The package manager for Python.
+
+```powershell
+py -m ensurepip --upgrade
+```
