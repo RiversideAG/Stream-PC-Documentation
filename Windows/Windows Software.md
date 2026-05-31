@@ -283,6 +283,14 @@ py -m ensurepip --upgrade
 
 By default the directory where `pip` installs its scripts is not on the PATH so it's not accessible when in a shell. The following Powershell script, when added to the Powershell profile, adds the directory to the PATH. The profile documented in [Windows Settings](Windows%20Settings.md) already has this script.
 
+## MkDocs
+
+A program for generating documentation from Markdown files.
+
+```powershell
+pip install mkdocs
+```
+
 ## Mozilla Thunderbird
 
 A free and open source email client.
