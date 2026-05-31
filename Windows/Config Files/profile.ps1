@@ -17,3 +17,14 @@ function touch {
         New-Item -Path $file -ItemType File
     }
 }
+
+# add python Scripts directory to the path
+$directories = Get-ChildItem -Path "C:\Users\RiversideAG\AppData\Local\Python\" -Directory
+foreach ($dir in $directories) {
+    # check if the directory contains a Scripts subdirectory
+    $scriptsPath = Join-Path -Path $dir.FullName -ChildPath "Scripts"
+    if (Test-Path -Path $scriptsPath -PathType Container) {
+        # add the directory to the path
+        $env:path += ";$scriptsPath"
+    }
+}
