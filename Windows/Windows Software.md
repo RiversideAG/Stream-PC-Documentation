@@ -312,3 +312,19 @@ The package manager for Python.
 ```powershell
 py -m ensurepip --upgrade
 ```
+
+## Mozilla Thunderbird
+
+A free and open source email client.
+
+```powershell
+winget install -e --id Mozilla.Thunderbird
+```
+
+## yt-dlp
+
+A command-line Youtube video downloader.
+
+```powershell
+winget install -e --id yt-dlp.yt-dlp
+```
