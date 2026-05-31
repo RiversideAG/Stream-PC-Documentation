@@ -36,8 +36,6 @@ git config --global core.sshCommand "C:/Windows/System32/OpenSSH/ssh.exe"
 
 A PowerShell script that removes pre-installed apps, disables telemetry, fixes configuration options, and generally de-bloats the overall Windows installation.
 
-### Installation
-
 ```powershell
 cd 'C:\Program Files\'
 Git clone https://github.com/Raphire/Win11Debloat.git
@@ -50,8 +48,6 @@ See `Windows Debloating.md` for usage instructions.
 ## Mozilla Firefox
 
 An open-source browser that respects your privacy.
-
-### Installation
 
 ```powershell
 winget install -e --id Mozilla.Firefox --source winget
@@ -106,8 +102,6 @@ winget install -e --id Mozilla.Firefox --source winget
 
 Free and open-source, the best media player.
 
-### Installation
-
 ```powershell
 winget install -e --id VideoLAN.VLC --source winget
 ```
@@ -115,8 +109,6 @@ winget install -e --id VideoLAN.VLC --source winget
 ## LibreOffice
 
 Free and open source office suite, an alternative to Word, Excel and Powerpoint.
-
-### Installation
 
 ```powershell
 winget install -e --id TheDocumentFoundation.LibreOffice --source winget
@@ -138,8 +130,6 @@ winget install -e --id TheDocumentFoundation.LibreOffice --source winget
 
 Free and open source PDF reader.
 
-### Installation
-
 ```powershell
 winget install -e --id SumatraPDF.SumatraPDF --source winget
 ```
@@ -147,8 +137,6 @@ winget install -e --id SumatraPDF.SumatraPDF --source winget
 ## PowerToys
 
 Free and open source set of utilities for Windows.
-
-### Installation
 
 ```powershell
 winget install -e --id Microsoft.PowerToys --source winget
@@ -165,8 +153,6 @@ winget install -e --id Microsoft.PowerToys --source winget
 
 Free and open source tool for creating bootable USB drives.
 
-### Installation
-
 1. Install from https://rufus.ie/en/#download
 2. Move the downloaded executable to a `Rufus` folder in `C:\Program Files`.
 3. Pin the executable to the start menu and then unpin it, which adds it to the applications list.
@@ -174,8 +160,6 @@ Free and open source tool for creating bootable USB drives.
 ## Notepad++
 
 Free and open source text and code editor.
-
-### Installation
 
 ```powershell
 winget install -e --id Notepad++.Notepad++ --source winget
@@ -185,8 +169,6 @@ winget install -e --id Notepad++.Notepad++ --source winget
 
 A mostly open-source code editor with an enormous library of extensions.
 
-### Installation
-
 ```powershell
 winget install -e --id Microsoft.VisualStudioCode --source winget
 ```
@@ -194,8 +176,6 @@ winget install -e --id Microsoft.VisualStudioCode --source winget
 ## Audacity
 
 Free and open source audio recording and editing software.
-
-### Installation
 
 ```powershell
 winget install -e --id Audacity.Audacity --source winget
@@ -205,8 +185,6 @@ winget install -e --id Audacity.Audacity --source winget
 
 Free and open source software for video recording and live streaming.
 
-### Installation
-
 ```powershell
 winget install -e --id OBSProject.OBSStudio --source winget
 ```
@@ -214,8 +192,6 @@ winget install -e --id OBSProject.OBSStudio --source winget
 ## Handbrake
 
 Open source tool built upon ffmpeg for converting video.
-
-### Installation
 
 ```powershell
 winget install -e --id HandBrake.HandBrake --source winget
@@ -225,8 +201,6 @@ winget install -e --id HandBrake.HandBrake --source winget
 
 Zip file archiver.
 
-### Installation
-
 ```powershell
 winget install -e --id 7zip.7zip --source winget
 ```
@@ -234,8 +208,6 @@ winget install -e --id 7zip.7zip --source winget
 ## Davinci Resolve
 
 A free but still powerful cross-platform video editor.
-
-### Installation
 
 Davinci Resolve requires registration to download, but not any payment information. It can be downloaded from [blackmagicdesign.com/products/davinciresolve](https://www.blackmagicdesign.com/products/davinciresolve).
 
@@ -251,8 +223,6 @@ Davinci Resolve requires registration to download, but not any payment informati
 
 A modern replacement for ls.
 
-### Installation
-
 ```powershell
 winget install -e --id eza-community.eza
 ```
@@ -260,8 +230,6 @@ winget install -e --id eza-community.eza
 ## Windows Subsystem for Linux (WSL)
 
 A subsystem which allows Linux distributions to be installed within the existing Windows installation. Required for Docker's virtual machine functionality.
-
-### Installation
 
 The following instructions install Ubuntu through WSL, which is one of the most popular and best maintained Linux distributions.
 
@@ -285,7 +253,7 @@ code --install-extension ms-vscode-remote.remote-wsl  # install the vscode WSL e
 
 The most popular containerization software.
 
-### Installation
+*WSL must be installed for Docker to work.*
 
 ```powershell
 winget install -e --id Docker.DockerDesktop
