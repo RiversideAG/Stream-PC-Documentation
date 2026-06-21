@@ -306,3 +306,15 @@ A command-line Youtube video downloader.
 ```powershell
 winget install -e --id yt-dlp.yt-dlp
 ```
+
+## X-AIR-Edit
+
+Application for operating the sound board.
+
+1. Go to the [XR18 Product Page](https://www.behringer.com/en/products/0605-AAD) and click **Downloads**.
+2. Scroll down and download the first option titled **X-AIR EDIT PC**. At the time of writing this is labeled **1.8.1**.
+3. Unzip/extract the downloaded zip file.
+4. Create a folder in `C:\Program Files` called `X-AIR-Edit` and move the contents of the extracted folder to this folder.
+5. Remove the downloaded zip file and the extracted folder to clean up.
+6. Go to `C:\Program Files\X-AIR-Edit` and right-click on `X-AIR-Edit`. Click **Properties**.
+7. At the bottom of the pop-up window, click **Unblock**. Click **Apply**.

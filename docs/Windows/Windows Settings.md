@@ -46,9 +46,9 @@ A list of the system settings set on the RiversideAG stream PC.
 - Terminal
 - Firefox
 - OBS Studio
+- X-AIR-Edit
 - Davinci Resolve
 - Git Bash
-- Windows Security
 - Calculator
 - Notepad
 - Notepad++
@@ -62,6 +62,7 @@ A list of the system settings set on the RiversideAG stream PC.
 - Audacity
 - PowerToys (Preview)
 - Rufus
+- Windows Security
 
 ### Apps Pinned to Taskbar
 
@@ -70,6 +71,7 @@ A list of the system settings set on the RiversideAG stream PC.
 - Terminal
 - Firefox
 - OBS Studio
+- X-AIR-Edit
 - Davinci Resolve
 
 ## Terminal
