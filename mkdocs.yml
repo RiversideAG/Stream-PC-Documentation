@@ -1,1 +1,13 @@
-site_name: My Docs
+site_name: Stream PC Documentation
+repo_url: https://github.com/RiversideAG/Stream-PC-Documentation
+nav:
+  - Home: index.md
+  - Operating Instructions: Stream Instructions.md
+  - Stream Documentation: OBS/OBS.md
+  - Windows Documentation:
+    - Windows Documentation: Windows/Windows Documentation.md
+    - Windows Software: Windows/Windows Software.md
+    - Windows Settings: Windows/Windows Settings.md
+    - Windows Installation: Windows/Windows Installation.md
+    - Windows Debloating: Windows/Windows Debloating.md
+  

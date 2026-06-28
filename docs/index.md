@@ -1,17 +1,5 @@
-# Welcome to MkDocs
+# Stream PC Documentation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome to the documentation for the Riverside AG Stream PC.
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+For operating instructions, see the [Stream Instructions](Stream%20Instructions.md). For information on how Windows is configured, see the [Windows Documentation](Windows/Windows%20Documentation.md). For information on how the stream is configured, see the [OBS Documentation](OBS/OBS.md).
