@@ -32,6 +32,14 @@ Add-PoshGitToProfile -AllHosts
 git config --global core.sshCommand "C:/Windows/System32/OpenSSH/ssh.exe"
 ```
 
+### Settings
+
+```powershell
+user.email=media@riversideag.com
+user.name=RiversideAG Media Booth
+core.editor=nano
+```
+
 ## Win11Debloat
 
 A PowerShell script that removes pre-installed apps, disables telemetry, fixes configuration options, and generally de-bloats the overall Windows installation.
@@ -318,3 +326,11 @@ Application for operating the sound board.
 5. Remove the downloaded zip file and the extracted folder to clean up.
 6. Go to `C:\Program Files\X-AIR-Edit` and right-click on `X-AIR-Edit`. Click **Properties**.
 7. At the bottom of the pop-up window, click **Unblock**. Click **Apply**.
+
+## GNU Nano
+
+Small command-line text editor made by GNU.
+
+```powershell
+winget install -e --id GNU.Nano
+```
