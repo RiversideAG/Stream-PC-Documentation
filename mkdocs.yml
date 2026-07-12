@@ -3,7 +3,9 @@ repo_url: https://github.com/RiversideAG/Stream-PC-Documentation
 nav:
   - Home: index.md
   - Operating Instructions: Stream Instructions.md
-  - Stream Documentation: OBS/OBS.md
+  - Stream Documentation:
+    - OBS Documentation: Stream/OBS Documentation.md
+    - Stream Troubleshooting: Stream/Stream Troubleshooting.md
   - Windows Documentation:
     - Windows Documentation: Windows/Windows Documentation.md
     - Windows Software: Windows/Windows Software.md
