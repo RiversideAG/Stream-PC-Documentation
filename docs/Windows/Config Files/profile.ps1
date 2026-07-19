@@ -2,7 +2,14 @@
 Import-Module posh-git
 
 # set alias for better ls
-function le {eza -l @args }
+function le {eza -l @args}
+
+# set aliases for clearing the screen
+function clear {Clear-Host}
+function c {Clear-Host}
+
+# set alias for reloading the shell configuration
+function reload {. ~\Documents\WindowsPowerShell\profile.ps1}
 
 # set alias for touch command to create files
 function touch {
