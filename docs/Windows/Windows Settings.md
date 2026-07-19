@@ -86,6 +86,10 @@ Set-ExecutionPolicy -Scope LocalMachine -ExecutionPolicy RemoteSigned -Force
 
 Configuration options for Powershell are stored in `~\Documents\WindowsPowerShell\profile.ps1`, which you can view in `Config Files/profile.ps1`.
 
+```powershell
+--8<-- "docs/Windows/Config Files/profile.ps1"
+```
+
 ### SSH Keys
 
 SSH keys are stored in `~\.ssh`. These are used for authenticiation over SSH, like for GitHub and can be created using [ssh-keygen](https://www.ssh.com/academy/ssh/keygen).

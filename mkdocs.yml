@@ -1,8 +1,15 @@
 site_name: Stream PC Documentation
 repo_url: https://github.com/RiversideAG/Stream-PC-Documentation
+plugins:
+  - search
+  - mkdocs-pdf
+markdown_extensions:
+  - attr_list
+  - pymdownx.snippets
+
 nav:
   - Home: index.md
-  - Operating Instructions: Stream Instructions.md
+  - Operating Instructions: Recording Instructions.md
   - Stream Documentation:
     - OBS Documentation: Stream/OBS Documentation.md
     - Stream Troubleshooting: Stream/Stream Troubleshooting.md
