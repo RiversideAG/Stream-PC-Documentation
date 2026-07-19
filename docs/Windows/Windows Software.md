@@ -297,6 +297,9 @@ A program for generating documentation from Markdown files.
 
 ```powershell
 pip install mkdocs
+pip install mkdocs-material
+pip install mkdocs-material-extensions
+pip install mkdocs-pdf
 ```
 
 ## Mozilla Thunderbird
