@@ -37,11 +37,11 @@ You can open OBS from the desktop, the task bar, or the start menu. It should op
 
 1. Take the camera out of its case and replace the lense cover with the lense hood.
 
-    *Insert picture of the lense hood.*
+    ![The Lense Hood, not connected to the camera](Images/Camera_Lense_Hood.png)
 
 2. Slide the camera into the camera mount on top of the media booth wall. Twist the knob on the right side of the mount to tighten its grip on the camera.
 
-    *Insert picture of the camera mount w/ arrow to the knob.*
+    ![The knob to tighten the camera in its mount](Images/Camera_Mount_Tightening_Knob.png)
 
 3. Connect both the power cable and the mini-HDMI cable to the camera.
 4. Ensure that the video from the camera is visible in OBS. If you can't see it under the **Main** scene, see *Camera Troubleshooting*.
