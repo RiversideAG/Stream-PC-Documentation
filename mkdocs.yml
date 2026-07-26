@@ -9,7 +9,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Operating Instructions: Recording Instructions.md
+  - Operating Instructions: Stream Instructions.md
   - Stream Documentation:
     - OBS Documentation: Stream/OBS Documentation.md
     - Stream Troubleshooting: Stream/Stream Troubleshooting.md
